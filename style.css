@@ -1,0 +1,107 @@
+*{
+    font-family: Arial;
+}
+
+.nav-item :hover{
+    color: black;
+    border-bottom: 3px black solid;
+}
+#top{
+    margin-top: 200px;
+}
+#bg1{
+background-image: url(IMG_9481.JPG);
+width: 100%;
+height: 500px;
+}
+#myid1{
+    color: lightblue;
+    margin-top: 200px;
+}
+#clrbg{
+    background-color: #fff;
+    border-radius: 20px;
+}
+#nav{
+ background-color: lightblue;
+}
+#contact{
+    border: 2px solid black;
+}
+#clr{
+    background-color: lightblue;
+    color: black;
+    border: lightblue;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+/* serives css start */
+#card{
+    position: relative;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5) ;
+    transition: 0.3s;
+    background-color: #fff;
+    margin-top: 150px;
+    cursor: pointer;
+    margin-left: 58px;
+
+}
+#card:hover{
+    height: 350px;
+}
+#imgbox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#img1{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: -50px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5) ;
+}
+#content{
+    padding: 10px 20px;
+    margin-top: -400px;
+    opacity: 0;
+    transition: 0.3s;
+}
+#card:hover > #content{
+    opacity: 1;
+    margin-top: -200px;
+}
+#content h1{
+    color: lightblue;
+    font-weight: bold;
+    text-align: center;
+}
+#btn1{
+    background-color: lightblue;
+}
+#btn1 a{
+    text-decoration: none;
+    color: black;
+}
+#btn2{
+    border-color: lightblue;
+}
+#btn2 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#btn2 :hover{
+    color: lightblue;
+}
+#head{
+    margin-top: 80px;
+}
+#mail{
+    text-decoration: none;
+    color: black;
+    
+
+}
